@@ -12,7 +12,7 @@ function pruebaBoton() {
   let pw = document.getElementById('pw').value;
 
   // Recorrer la lista de usuarios y verificar las credenciales
-  let usuario = null;
+  //let usuario = null;
   for (let i = 0; i < usuarios.length; i++) {
     if (usuarios[i].username === user && usuarios[i].password === pw) {
       usuario = usuarios[i];
