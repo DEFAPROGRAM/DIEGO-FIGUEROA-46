@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <title>Selectores</title>
+    <title>Inicio Sesion</title>
 </head>
 
 <body>
@@ -22,24 +22,28 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-
                     <li class="nav-item">
                         <a class="nav-link" href="#">Selectores</a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <label for="inputPassword5" class="form-label mt-5">Usuario</label>
-        <input id="user" type="text" id="inputPassword5" placeholder="Ingrese el usuario" class="form-control" aria-describedby="passwordHelpBlock">
-        <label for="inputPassword5" class="form-label mt-4">Contraseña</label>
-        <input id="pw" type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-        <div class="d-grid gap-2">
-            <button type="button" class="btn btn-primary mt-3" onclick="pruebaBoton()">Entrar</button>
-
+    <div class="container d-flex justify-content-center align-items-center" style="height: 80vh;">
+        <div class="col-md-6 col-sm-8 bg-white p-5 rounded shadow">
+            <h3 class="text-center mb-5">Inicio de Sesión</h3>
+            <div class="form-group mb-4">
+                <label for="user" class="form-label fw-bold">Usuario</label>
+                <input id="user" type="text" class="form-control form-control-md" placeholder="Ingrese el usuario">
+            </div>
+            <div class="form-group mb-4">
+                <label for="pw" class="form-label fw-bold">Contraseña</label>
+                <input id="pw" type="password" class="form-control form-control-md" placeholder="Ingrese la contraseña">
+            </div>
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary btn-md" onclick="pruebaBoton()">Entrar</button>
+            </div>
         </div>
     </div>
     <script src="../pruebaGitHub/Clase-05-06/js/logica.js"></script>
