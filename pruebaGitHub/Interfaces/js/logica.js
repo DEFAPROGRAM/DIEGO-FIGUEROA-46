@@ -26,7 +26,7 @@ if (usuario) {
     // Restablecer los intentos fallidos en caso de éxito
     usuario.falla = 0; 
     // Redirigir a la página Home.html y pasar el nombre de usuario como variable
-    window.open('../pruebaGitHub/Clase-05-06/pages/Home.html?user=' + usuario.username, '_self');
+    window.open('../views/Home.html?user=' + usuario.username, '_self');
   } else {
     usuario.falla+= 1;
       if (usuario.falla >= 3) {
