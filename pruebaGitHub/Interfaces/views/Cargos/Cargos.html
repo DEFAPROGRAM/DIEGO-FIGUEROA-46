@@ -37,14 +37,9 @@
         <div class="form-container">
             <h1>Registro de Cargos</h1>
             <form>
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label for="nombreCiudad" class="form-label">Nombre de los Cargos</label>
-                        <input type="text" class="form-control" id="nombreCiudad" placeholder="Cargos">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <!-- Espacio reservado para un futuro campo -->
-                    </div>
+                <div class="mb-3">
+                    <label for="nombreCargo" class="form-label">Nombre de los Cargos</label>
+                    <input type="text" class="form-control" id="nombreCargo" placeholder="Cargos" style="width: 100%;">
                 </div>
                 <div class="d-flex justify-content-end">
                     <button type="button" class="btn btn-secondary me-2" id="btnCancelar">Cancelar</button>
@@ -55,7 +50,7 @@
     </div>
     <script>
         document.getElementById('btnCancelar').addEventListener('click', () => {
-            window.location.href = 'Home.html'; // Redirige a la página de inicio
+            window.location.href = '/pruebaGitHub/Interfaces/views/Dashboard/Home.html'; // Redirige a la página de inicio
         });
     </script>
 
